@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html> 
+<title> 
+    HTML | DOM HTML Object Property 
+</title> 
+<style> 
+    body { 
+        text-align: center; 
+        width: 70%; 
+    } 
+      
+    h1 {
+        color: green; 
+    } 
+      
+    h1, 
+    h2 { 
+        text-align: center; 
+    } 
+</style> 
+  
+<body> 
+    <h1>HELLO WOrld</h1> 
+    <h2> HTML Object</h2> 
+  
+    <p>Click the button to get the  
+      HTML content of the html element.</p> 
+  
+    <button onclick="GFG()">Click</button> 
+  
+    <p id="Geeks"></p> 
+
+    <script> 
+        function GFG() { 
+                  return using "innerHTML";
+          var x =  document.getElementsByTagName( "HTML")[0].innerHTML; 
+          document.getElementById("Geeks").innerHTML = x; 
+      } 
+    </script> 
+</body> 
+  
+</html> 

@@ -1,0 +1,20 @@
+@mixin flexcentre {
+    height : 100vh;
+    display : flex;
+    justify-content: center ;
+    align-items: center; 
+    
+}
+
+header{
+    @include flexcentre();
+    background: lightgreen;
+    height : 100vh;
+    color : $textcolor;
+button{
+    background: $PrimaryBtn;
+    & :hover{
+        content: "Helloo";
+    }
+}
+}
